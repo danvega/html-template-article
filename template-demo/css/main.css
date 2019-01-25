@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* darker 76C6E6 */
+    background-color: #009688;
+    margin: 40px;
+    font-family: 'Courier New', Courier, monospace
+    /*
+        background: rgb(74,162,244);
+    background: radial-gradient(circle, rgba(74,162,244,1) 0%, rgba(54,131,240,1) 100%);
+    */
+}
+h1 {
+    margin: 0 0 20px 0;
+    text-align: center;
+    text-transform: uppercase;
+    color:#3d4852;
+}
+
+#users {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.user {
+    background-color:#fff;
+    box-shadow: 2px 4px rgb(0, 0, 0, 40%);
+    border-radius: 10px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    animation: fadeIn 1s ease-out;
+}
+
+@keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 100;}
+}
+
+.avatar {
+    display: block;
+    width: 150px;
+    border-radius: 50%;
+    box-shadow: 0px 3px 10px rgb(0, 0, 0, 40%);
+    margin: auto auto;
+}
+.profile {
+    padding:20px;
+    text-align: center;
+    width:100%;
+}
+.stats { 
+    display:block;
+    background-color: #88B7B8;
+    border-radius: 0 10px 10px 0;
+    color: #ffffff;
+    padding:20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.posts,.likes,.followers { 
+    display:block;
+    padding:20px;
+    flex-direction: row;
+}
+
+.stats span { 
+    text-transform: uppercase;
+    font-size:12px;
+    font-weight: 100;
+    letter-spacing: 2px;
+    color:#e4e4e4;
+}
+
+h2 {
+    font-size: 28px;
+    margin: 10px 0 0 0;
+}
+h3 { 
+    font-size: 26px;
+}
+.social {
+    margin:20px 0 0 0;
+}
+.social a {
+    color: #c9c9c9;
+}
+.social a:hover {
+    color: #009688;
+}
+
+

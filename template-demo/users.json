@@ -1,0 +1,164 @@
+[
+    { 
+        "id": 1,
+        "fullname": "Jonathan Stark",
+        "title": "Software Developer",
+        "avatar": "img/user_1.png",
+        "social": {
+            "github": "github_username",
+            "reddit": "reddit_username",
+            "twitter": "twitter_username",
+            "instagram": "instagram_username",
+            "facebook": "facebook_username"
+        },
+        "stats": {
+            "posts": "150",
+            "likes": "680",
+            "followers": "199"
+        }
+    },
+    { 
+        "id": 2,
+        "fullname": "Sarah Smith",
+        "title": "Full Stack Ninja",
+        "avatar": "img/user_2.png",
+        "social": {
+            "github": "github_username",
+            "reddit": "reddit_username",
+            "twitter": "twitter_username",
+            "instagram": "instagram_username",
+            "facebook": "facebook_username"
+        },
+        "stats": {
+            "posts": "101",
+            "likes": "501",
+            "followers": "118"
+        }
+    },
+    { 
+        "id": 3,
+        "fullname": "Jonny Flynn",
+        "title": "Senior Java Developer",
+        "avatar": "img/user_3.png",
+        "social": {
+            "github": "github_username",
+            "reddit": "reddit_username",
+            "twitter": "twitter_username",
+            "instagram": "instagram_username",
+            "facebook": "facebook_username"
+        },
+        "stats": {
+            "posts": "188",
+            "likes": "195",
+            "followers": "411"
+        }
+    },
+    { 
+        "id": 4,
+        "fullname": "Jennifer Clark",
+        "title": "Full Stack Developer",
+        "avatar": "img/user_4.png",
+        "social": {
+            "github": "github_username",
+            "reddit": "reddit_username",
+            "twitter": "twitter_username",
+            "instagram": "instagram_username",
+            "facebook": "facebook_username"
+        },
+        "stats": {
+            "posts": "142",
+            "likes": "552",
+            "followers": "174"
+        }
+    },
+    { 
+        "id": 5,
+        "fullname": "Marky Mark",
+        "title": "Database Administrator",
+        "avatar": "img/user_5.png",
+        "social": {
+            "github": "github_username",
+            "reddit": "reddit_username",
+            "twitter": "twitter_username",
+            "instagram": "instagram_username",
+            "facebook": "facebook_username"
+        },
+        "stats": {
+            "posts": "111",
+            "likes": "771",
+            "followers": "128"
+        }
+    },
+    { 
+        "id": 6,
+        "fullname": "Maria Stern",
+        "title": "Full Stack Hacker",
+        "avatar": "img/user_6.png",
+        "social": {
+            "github": "github_username",
+            "reddit": "reddit_username",
+            "twitter": "twitter_username",
+            "instagram": "instagram_username",
+            "facebook": "facebook_username"
+        },
+        "stats": {
+            "posts": "147",
+            "likes": "889",
+            "followers": "195"
+        }
+    },
+    { 
+        "id": 7,
+        "fullname": "Mr Rogers",
+        "title": "Software Developer",
+        "avatar": "img/user_7.png",
+        "social": {
+            "github": "github_username",
+            "reddit": "reddit_username",
+            "twitter": "twitter_username",
+            "instagram": "instagram_username",
+            "facebook": "facebook_username"
+        },
+        "stats": {
+            "posts": "149",
+            "likes": "874",
+            "followers": "210"
+        }
+    },
+    { 
+        "id": 8,
+        "fullname": "Edith Marx",
+        "title": "Software Developer",
+        "avatar": "img/user_8.png",
+        "social": {
+            "github": "github_username",
+            "reddit": "reddit_username",
+            "twitter": "twitter_username",
+            "instagram": "instagram_username",
+            "facebook": "facebook_username"
+        },
+        "stats": {
+            "posts": "147",
+            "likes": "696",
+            "followers": "299"
+        }
+    },
+    { 
+        "id": 9,
+        "fullname": "Michael Spark",
+        "title": "Full Stack Ninja",
+        "avatar": "img/user_9.png",
+        "social": {
+            "github": "github_username",
+            "reddit": "reddit_username",
+            "twitter": "twitter_username",
+            "instagram": "instagram_username",
+            "facebook": "facebook_username"
+        },
+        "stats": {
+            "posts": "149",
+            "likes": "773",
+            "followers": "163"
+        }
+    }
+]

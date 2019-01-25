@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HTML Content Template Demo</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+
+    <div id="users">
+        <template id="user-card-template">
+        <div class="user">
+            <div class="profile">
+                <img src="img/user_1.png" class="avatar"/>
+                <h2></h2>
+                <span class="title"></span>
+                <div class="social">
+                    <a href="https://www.github.com" target="_blank"><i class="fab fa-github fa-2x" target="_blank"></i></a>
+                    <a href="https://www.reddit.com" target="_blank"><i class="fab fa-reddit-alien fa-2x"></i></a>
+                    <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter fa-2x"></i></a>
+                    <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram fa-2x"></i></a>
+                    <a href="http://www.facebook.com" target="_blank"><i class="fab fa-facebook-f fa-2x"></i></a>
+                </div>
+            </div>
+            <div class="stats">
+                <div class="posts">
+                    <h3>150</h3>
+                    <span>Posts</span>
+                </div>
+                <div class="likes">
+                    <h3>680</h3>
+                    <span>Likes</span>
+                </div>
+                <div class="followers">
+                    <h3>199</h3>
+                    <span>Followers</span>
+                </div>
+            </div>
+        </div>
+        </template>
+    </div>
+
+
+    <script src="js/users.js"></script>
+</body>
+
+</html>
