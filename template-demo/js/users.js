@@ -14,6 +14,17 @@ fetch('users.json')
       tmpl.querySelector('.posts h3').innerText = user.stats.posts;
       tmpl.querySelector('.likes h3').innerText = user.stats.likes;
       tmpl.querySelector('.followers h3').innerText = user.stats.followers;
+
+      // this is a list of social networks we display under a users profile
+      const socialLinks = ['github','reddit','twitter','instagram','facebook']
+      // iterate over that list and check to see if they have an account on that network
+      socialLinks.forEach((social) => {
+        // if they don't have a link in the JSON data hide that link & icon
+        if(!user.social.hasOwnProperty(social)) {
+          tmpl.querySelector(`.${social}`).remove();
+        }
+      });
+
       container.appendChild(tmpl);
     });
   } else {

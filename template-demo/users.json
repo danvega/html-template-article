@@ -115,9 +115,7 @@
         "social": {
             "github": "github_username",
             "reddit": "reddit_username",
-            "twitter": "twitter_username",
-            "instagram": "instagram_username",
-            "facebook": "facebook_username"
+            "twitter": "twitter_username"
         },
         "stats": {
             "posts": "149",
@@ -134,7 +132,6 @@
             "github": "github_username",
             "reddit": "reddit_username",
             "twitter": "twitter_username",
-            "instagram": "instagram_username",
             "facebook": "facebook_username"
         },
         "stats": {
@@ -152,8 +149,7 @@
             "github": "github_username",
             "reddit": "reddit_username",
             "twitter": "twitter_username",
-            "instagram": "instagram_username",
-            "facebook": "facebook_username"
+            "instagram": "instagram_username"
         },
         "stats": {
             "posts": "149",
